@@ -1,0 +1,46 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+	font-family: 'Roboto', sans-serif;
+}
+.jumbotron {
+  text-align: center;
+  
+  &.header-section {
+  	background-image: url("https://db.tt/UPEH5k6S");
+    background-size: cover;
+    height: 600px;
+    
+    h1 {
+    	color: white;
+      font-weight: 500;
+      margin-top: 100px;
+    }
+  }
+  &.pic {
+  	background-image: url("https://db.tt/C7EmUNHA");
+    background-size: cover;
+    height: 400px;
+  }
+}
+.section {
+	text-align: center;
+  padding: 100px 0;
+  
+  h1 {
+  	color: #444;
+    font-weight: 500;
+    
+  }
+  p {
+  	color: #444;
+    font-weight: 300;
+  }
+}
+.footer {
+	background: #f6f6f6;
+  color: #ccc;
+  text-align: center;
+  padding: 30px 0;
+}
